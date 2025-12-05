@@ -1,0 +1,21 @@
+{
+  "title": "Rigging & Animations",
+  "desc": "Instantly auto‑rig any model and generate ready‑to‑use animations.",
+  "run": "Auto Rig",
+  "actions": {
+    "stand": "Stand",
+    "walk": "Walk",
+    "run": "Run",
+    "climb": "Climb",
+    "jump": "Jump",
+    "slash": "Slash",
+    "shoot": "Shoot",
+    "hurt": "Hurt",
+    "fall": "Fall",
+    "turn": "Turn",
+    "dive": "Dive",
+    "idle": "Idle"
+  },
+  "retry": "Retry",
+  "preRiggingFailed": "Auto-Rig is currently not supported for this model."
+}

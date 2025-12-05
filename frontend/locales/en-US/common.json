@@ -1,0 +1,74 @@
+{
+  "lang": {
+    "ar": "Arabic",
+    "bg-BG": "Bulgarian",
+    "bn": "Bengali",
+    "cs-CZ": "Czech",
+    "da-DK": "Danish",
+    "de-DE": "German",
+    "el-GR": "Greek",
+    "en": "English",
+    "en-US": "English",
+    "es-ES": "Spanish",
+    "fa-IR": "Persian",
+    "fi-FI": "Finnish",
+    "fr-FR": "French",
+    "hi-IN": "Hindi",
+    "hu-HU": "Hungarian",
+    "id-ID": "Indonesian",
+    "it-IT": "Italian",
+    "ja-JP": "Japanese",
+    "ko-KR": "Korean",
+    "nl-NL": "Dutch",
+    "no-NO": "Norwegian",
+    "pl-PL": "Polish",
+    "pt-BR": "Portuguese",
+    "pt-PT": "Portuguese",
+    "ro-RO": "Romanian",
+    "ru-RU": "Russian",
+    "sk-SK": "Slovak",
+    "sr-RS": "Serbian",
+    "sv-SE": "Swedish",
+    "th-TH": "Thai",
+    "tr-TR": "Turkish",
+    "uk-UA": "Ukrainian",
+    "vi-VN": "Vietnamese",
+    "zh": "Simplified Chinese",
+    "zh-CN": "Simplified Chinese",
+    "zh-TW": "Traditional Chinese"
+  },
+  "tab": {
+    "model": "Model",
+    "generate": "Generation",
+    "overview": "Overview",
+    "segmentation": "Segmentation",
+    "retopology": "Retopology",
+    "texture": "Texture",
+    "rigging": "Rigging",
+    "stylization": "Stylization"
+  },
+  "imageUpload": {
+    "actions": "Drag or Upload Image",
+    "desc": "JPG,PNG, WEBP Size≤20MB"
+  },
+  "loading": "Loading...",
+  "processing": "Processing...",
+  "rigging": {
+    "run": "Rigging...",
+    "preRigging": "Pre Rigging...",
+    "retargeting": "Retargeting...",
+    "stylizing": "Stylizing..."
+  },
+  "tour": {
+    "one": {
+      "title": "Welcome to Tripo Studio Workspace!",
+      "desc": "Master view controls with your mouse or touchpad!"
+    }
+  },
+  "exportPopover": {
+    "fileName": "File Name",
+    "fileNamePlaceholder": "Please enter file name",
+    "format": "Format",
+    "export": "Export"
+  }
+}

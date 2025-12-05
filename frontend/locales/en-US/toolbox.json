@@ -1,0 +1,11 @@
+{
+  "assets": "Assets",
+  "myAssets": "My Assets",
+  "collected": "Collected",
+  "property": "Property",
+  "material": "Material",
+  "pbr": "PBR",
+  "metallic": "Metallic",
+  "roughness": "Roughness",
+  "transform": "Transform"
+}

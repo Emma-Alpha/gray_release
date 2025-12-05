@@ -1,0 +1,11 @@
+{
+  "assets": "资源",
+  "myAssets": "我的资产",
+  "collected": "已收藏",
+  "property": "属性",
+  "material": "材质",
+  "pbr": "PBR",
+  "metallic": "金属度",
+  "roughness": "粗糙度",
+  "transform": "变换"
+}

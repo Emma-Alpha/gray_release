@@ -1,0 +1,66 @@
+# Docker Compose 示例配置
+# 用于本地测试灰度发布系统
+
+version: '3.8'
+
+services:
+  # Nginx 网关
+  nginx:
+    image: nginx:alpine
+    ports:
+      - "80:80"
+    volumes:
+      - ./gray.conf:/etc/nginx/conf.d/default.conf:ro
+    depends_on:
+      - bff
+      - stable
+      - gray
+    networks:
+      - gray-network
+
+  # Python BFF 灰度决策服务
+  bff:
+    build:
+      context: ../backend
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    volumes:
+      - ../backend:/app
+    environment:
+      - DATABASE_URL=sqlite+aiosqlite:///./gray_release.db
+    networks:
+      - gray-network
+
+  # 稳定版本前端服务 (示例)
+  stable:
+    image: nginx:alpine
+    volumes:
+      - ./demo/stable:/usr/share/nginx/html:ro
+    networks:
+      - gray-network
+
+  # 灰度版本前端服务 (示例)
+  gray:
+    image: nginx:alpine
+    volumes:
+      - ./demo/gray:/usr/share/nginx/html:ro
+    networks:
+      - gray-network
+
+  # 管理后台前端
+  admin:
+    build:
+      context: ../frontend
+      dockerfile: Dockerfile
+    ports:
+      - "5173:80"
+    depends_on:
+      - bff
+    networks:
+      - gray-network
+
+networks:
+  gray-network:
+    driver: bridge
+

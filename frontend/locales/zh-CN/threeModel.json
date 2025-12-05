@@ -1,0 +1,9 @@
+{
+  "viewerToolbarButtons": {
+    "wireframeMode": "线框模式",
+    "solidMode": "白模模式",
+    "export": "导出",
+    "image": "截图",
+    "rotation": "顺时针旋转"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "model": "Model",
+  "generation": "Generation",
+  "overview": "Overview",
+  "segmentation": "Segmentation",
+  "retopology": "Retopology",
+  "texture": "Texture",
+  "rigging": "Rigging",
+  "stylization": "Stylization"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Stylization",
+  "desc": "Apply artistic style transfers to your 3D mesh",
+  "actions": {
+    "none": "Original",
+    "lego": "Lego",
+    "voxel": "Voxel",
+    "voronoi": "Voronoi"
+  },
+  "apply": "Apply"
+}

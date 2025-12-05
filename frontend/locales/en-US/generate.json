@@ -1,0 +1,71 @@
+{
+  "title": "Generate 3D Models",
+  "desc": "Instantly generate high-quality 3D models with AI",
+  "textTo3D": "Text to 3D",
+  "imageTo3D": "Image to 3D",
+  "multiViewsTo3D": "Multi-views to 3D",
+  "batch3DGen": "Batch 3D Gen",
+  "stayTuned": "Stay Tuned",
+  "style": {
+    "title": "Style",
+    "none": "None",
+    "cartoon": "Cartoon",
+    "christmas": "Christmas",
+    "barbie": "Barbie",
+    "clay": "Clay",
+    "steam_punk": "Steam Punk",
+    "alien": "Alien",
+    "gold": "Gold",
+    "bronze": "Bronze",
+    "wood": "Wood",
+    "stone": "Stone",
+    "metal": "Metal",
+    "plastic": "Plastic"
+  },
+  "hdTexture": {
+    "title": "HD Texture",
+    "desc": "High-res textures for refined details"
+  },
+  "modelVersion": {
+    "title": "Version",
+    "desc": "V2.5-20250123 Unprecedented detail and fidelity\nV2.0-20240919 Industry-leading geometry with PBR"
+  },
+  "topology": {
+    "title": "Topology",
+    "desc": "Select quad faces to force output as FBX model.",
+    "quad": "Quad",
+    "triangle": "Triangle"
+  },
+  "polycount": {
+    "title": "Polycount",
+    "auto": "Auto"
+  },
+  "textureAlignment": {
+    "title": "Texture Alignment",
+    "desc": "Image Aligned: Highly similar to the original image, may has 3D detail variations\nStructure Aligned: Maintains precise 3D structure, may slightly differs from the original image",
+    "originalImageDesc": "Image Aligned",
+    "geometryDesc": "Structure Aligned"
+  },
+  "moreSettings": "More Settings",
+  "generate": "Generate",
+  "front": "Front",
+  "left": "Left",
+  "right": "Right",
+  "back": "Back",
+  "multiViewToModel": {
+    "imagesTip": "Please upload at least one front view plus one side / back view."
+  },
+  "setting": {
+    "autoSize": "Auto Size",
+    "modelSeed": "Model Seed",
+    "textureSeed": "Texture Seed",
+    "autoSizeDesc": "Automatically scale the model to real size, in meters.",
+    "modelSeedDesc": "Seed controls the geometry generation process, models generated with the same seed will be the same",
+    "textureSeedDesc": "Using the same seed will produce the same texture",
+    "pbrDesc": "Accurately presenting the appearance of objects by simulating physical properties"
+  },
+  "yes": "Yes",
+  "no": "No",
+  "on": "On",
+  "off": "Off"
+}

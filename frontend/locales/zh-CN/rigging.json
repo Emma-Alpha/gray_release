@@ -1,0 +1,21 @@
+{
+  "title": "绑定与动画",
+  "desc": "即时自动绑定模型并生成可用动画",
+  "run": "自动绑定",
+  "actions": {
+    "stand": "站立",
+    "walk": "行走",
+    "run": "跑步",
+    "climb": "攀爬",
+    "jump": "跳跃",
+    "slash": "劈砍",
+    "shoot": "射击",
+    "hurt": "受击",
+    "fall": "坠落",
+    "turn": "转身",
+    "dive": "翻滚",
+    "idle": "待机"
+  },
+  "retry": "重试",
+  "preRiggingFailed": "当前模型不支持自动绑定。"
+}

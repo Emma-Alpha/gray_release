@@ -1,0 +1,11 @@
+.idea
+.history
+.DS_Store
+assets
+
+/**/*.log
+
+/**/node_modules
+/**/dist_*
+/**/dist/*
+.vscode

@@ -1,0 +1,71 @@
+{
+  "title": "生成3D模型",
+  "desc": "使用AI技术快速生成高质量的3D模型",
+  "textTo3D": "文生模型",
+  "imageTo3D": "图生模型",
+  "multiViewsTo3D": "多视图生模型",
+  "batch3DGen": "批量图生模型",
+  "stayTuned": "即将上线",
+  "style": {
+    "title": "风格",
+    "none": "无",
+    "cartoon": "卡通",
+    "christmas": "圣诞",
+    "barbie": "芭比",
+    "clay": "粘土",
+    "steam_punk": "蒸汽朋克",
+    "alien": "外星人",
+    "gold": "黄金",
+    "bronze": "青铜",
+    "wood": "木头",
+    "stone": "石头",
+    "metal": "金属",
+    "plastic": "塑料"
+  },
+  "hdTexture": {
+    "title": "高清纹理",
+    "desc": "高分辨率纹理，细节更丰富"
+  },
+  "modelVersion": {
+    "title": "模型",
+    "desc": "V2.5-20250123 前所未有的细节与真实感\nV2.0-20240919 行业内领先的几何体与 PBR"
+  },
+  "topology": {
+    "title": "拓扑",
+    "desc": "选择四边面将强制输出为 FBX 模型。",
+    "quad": "四边面",
+    "triangle": "三角面"
+  },
+  "polycount": {
+    "title": "面数限制",
+    "auto": "自动"
+  },
+  "textureAlignment": {
+    "title": "纹理对齐",
+    "desc": "图像对齐：与原始图像高度相似，可能存在3D细节上的差异\n结构对齐：保持精确的3D结构，可能与原始图像略有不同",
+    "originalImageDesc": "图像对齐",
+    "geometryDesc": "结构对齐"
+  },
+  "moreSettings": "高级设置",
+  "generate": "生成",
+  "front": "正视图",
+  "left": "左视图",
+  "right": "右视图",
+  "back": "后视图",
+  "multiViewToModel": {
+    "imagesTip": "请上传至少一张正视图以及一张侧视图或后视图。"
+  },
+  "setting": {
+    "autoSize": "尺寸缩放",
+    "modelSeed": "模型种子",
+    "textureSeed": "纹理种子",
+    "autoSizeDesc": "自动将模型缩放到真实尺寸，单位为米。",
+    "modelSeedDesc": "种子控制几何生成过程，使用相同种子时生成的模型相同",
+    "textureSeedDesc": "使用相同的种子将产生相同的纹理",
+    "pbrDesc": "通过模拟物理特性精准呈现物体外观"
+  },
+  "yes": "是",
+  "no": "否",
+  "on": "开",
+  "off": "关"
+}

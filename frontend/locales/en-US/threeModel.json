@@ -1,0 +1,9 @@
+{
+  "viewerToolbarButtons": {
+    "wireframeMode": "Wireframe Mode",
+    "solidMode": "Solid Mode",
+    "export": "Export",
+    "image": "Screenshot",
+    "rotation": "Clockwise Rotation"
+  }
+}

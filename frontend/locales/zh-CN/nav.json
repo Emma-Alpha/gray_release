@@ -1,0 +1,10 @@
+{
+  "model": "模型",
+  "generation": "生成",
+  "overview": "概览",
+  "segmentation": "分割",
+  "retopology": "重拓扑",
+  "texture": "纹理",
+  "rigging": "绑定",
+  "stylization": "风格化"
+}
